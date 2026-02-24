@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Tracker</title>
+    <!--Tailwind CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!--Font AWS CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="./images or icons/favicon.png" type="image/x-icon">
+    
+</head>
+<body class="font-geist w-[80%] mx-auto">
+
+    <!--Heading Section-->
+    <header class="p-12">
+        <h1 class="text-3xl font-semibold text-[#002C5C]">Job Application Tracker</h1>
+
+        <!--Tracking Cards-->
+        <div class="card-container grid grid-cols-1 gap-6 pt-6 md:grid-cols-3">
+            <!--Card 1-->
+            <div class="shadow p-4 rounded-[5px]">
+
+                <h2 class="text-[#323B49] text-lg font-medium">Total</h2>
+                <p class="text-4xl text-[#002C5C] font-semibold">0</p>
+
+            </div>
+
+            <!--Card 1-->
+            <div class="shadow p-4 rounded-[5px]">
+
+                <h2 class="text-[#323B49] text-lg font-medium">Interview</h2>
+                <p class="text-4xl text-[#10B981] font-semibold">0</p>
+
+            </div>
+
+            <!--Card 1-->
+            <div class="shadow p-4 rounded-[5px]">
+
+                <h2 class="text-[#323B49] text-lg font-medium">Rejected</h2>
+                <p class="text-4xl text-[#EF4444] font-semibold">0</p>
+
+            </div>
+
+        </div>
+        
+    </header>
+
+    <hr class="text-gray-400 opacity-30">
+
+    <!--Main Section-->
+    <main>
+
+        <h1 class="font-semibold text-4xl pt-6 text-[#002C5C]">Available Jobs</h1>
+        <div class="pt-6">
+            <button class="bg-blue-800 text-white px-8 py-2.5 font-medium rounded-[5px]">All</button>
+            <button class="bg-white text-[#64748B] px-8 py-2.5 font-medium rounded-[5px] shadow ml-2">Interview</button>
+            <button class="bg-white text-[#64748B] px-8 py-2.5 font-medium rounded-[5px] shadow ml-2">Rejected</button>
+        </div>
+
+        <section class="job-container">
+
+            <div>
+                
+            </div>
+        </section>
+
+    </main>
+
+
+    
+</body>
+</html>
