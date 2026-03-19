@@ -55,9 +55,9 @@
 
         <h1 class="font-semibold text-4xl pt-6 text-[#002C5C]">Available Jobs</h1>
         <div class="pt-6 flex gap-4">
-            <button id="all-btn" class="bg-blue-800 text-white px-8 py-2.5 font-medium rounded-[5px]">All</button>
-            <button id="interview-btn" class="bg-white text-[#64748B] px-8 py-2.5 font-medium rounded-[5px] shadow ml-2">Interview</button>
-            <button id="rejected-btn" class="bg-white text-[#64748B] px-8 py-2.5 font-medium rounded-[5px] shadow ml-2">Rejected</button>
+            <button onclick="toggleChange('all-btn')" id="all-btn" class="bg-blue-800 text-white px-8 py-2.5 font-medium rounded-[5px]">All</button>
+            <button onclick="toggleChange('interview-btn')" id="interview-btn" class="bg-blue-800 text-white px-8 py-2.5 font-medium rounded-[5px] shadow ml-2">Interview</button>
+            <button onclick="toggleChange('rejected-btn')" id="rejected-btn" class="bg-blue-800 text-white px-8 py-2.5 font-medium rounded-[5px] shadow ml-2">Rejected</button>
         </div>
 
         <section id="jobCards" class="job-container">
