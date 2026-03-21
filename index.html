@@ -60,22 +60,28 @@
             <button onclick="toggleChange('rejected-btn')" id="rejected-btn" class="bg-blue-800 text-white px-8 py-2.5 font-medium rounded-[5px] shadow ml-2">Rejected</button>
         </div>
 
+        <!--Filtered Card-->
+
+        <section id="filtered-section">
+
+        </section>
+
         <section id="jobCards" class="job-container">
 
             <!--Card 1-->
 
             <div class="shadow pt-5 mt-4">
                 <div class="pl-6 ">
-                    <h1 class="text-3xl font-semibold text-[#002C5C]">Basepoint Labs</h1>
-                <p class="text-[#64748B] text-base font-medium pt-2">Frontend Developer</p>
-                <p class="text-base font-medium text-[#64748B] pt-2.5">Remote · Full-Time · €30k – €40k / year</p>
-                <button class="text-cyan-600 bg-cyan-50 px-3 py-2 mt-5 font-semibold">NOT APPLIED</button>
-                <p class="text-base font-medium mt-3 text-[#64748B]">Build responsive user interfaces and improve overall user experience.</p>
+                    <h1 class="text-3xl font-semibold text-[#002C5C] title">Basepoint Labs</h1>
+                <p class="text-[#64748B] text-base font-medium pt-2 role">Frontend Developer</p>
+                <p class="text-base font-medium text-[#64748B] pt-2.5 workInfo">Remote · Full-Time · €30k – €40k / year</p>
+                <button class="text-cyan-600 bg-cyan-50 px-3 py-2 mt-5 font-semibold status">NOT APPLIED</button>
+                <p class="text-base font-medium mt-3 text-[#64748B] description">Build responsive user interfaces and improve overall user experience.</p>
 
                 <div class="flex gap-5 pb-7 pt-6">
-                    <button class="px-3 py-2 text-green-600 font-semibold text-base border border-green-600 rounded-md hover:bg-green-700 hover:text-white cursor-pointer transition ease-in-out hover:scale-105">INTERVIEW</button>
-                    <button class="px-3 py-2 text-red-600 font-semibold border border-red-600 rounded-md text-base cursor-pointer hover:bg-red-600 hover:text-white transition ease-in-out hover:scale-105">REJECTED</button>
-                    <button class="px-3 py-2 text-black font-semibold border border-black rounded-md text-base cursor-pointer hover:bg-black hover:text-white transition ease-in-out hover:scale-105">Delete</button>
+                    <button  class="px-3 py-2 text-green-600 font-semibold text-base border border-green-600 rounded-md hover:bg-green-700 hover:text-white cursor-pointer transition ease-in-out hover:scale-105 interview-button">INTERVIEW</button>
+                    <button class="px-3 py-2 text-red-600 font-semibold border border-red-600 rounded-md text-base cursor-pointer hover:bg-red-600 hover:text-white transition ease-in-out hover:scale-105 rejected-button">REJECTED</button>
+                    <button class="px-3 py-2 text-black font-semibold border border-black rounded-md text-base cursor-pointer hover:bg-black hover:text-white transition ease-in-out hover:scale-105 delete-button">Delete</button>
                 </div>
                 </div>
             </div>
